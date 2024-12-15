@@ -3,6 +3,8 @@
 #include "stack.h"
 #include <string.h>
 
+int temporal;
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
