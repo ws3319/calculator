@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+bool temporal
+
 typedef int Item;
 typedef struct stack {
 Item * contents;
